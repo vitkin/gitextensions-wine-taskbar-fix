@@ -1,0 +1,17 @@
+# .NET build outputs and local IDE files
+bin/
+obj/
+*.pdb
+*.user
+*.suo
+
+# Legacy published files in the repository root
+/patchge
+/patchge.deps.json
+/patchge.dll
+/patchge.runtimeconfig.json
+/Mono.Cecil*.dll
+
+# OS metadata
+.DS_Store
+Thumbs.db
